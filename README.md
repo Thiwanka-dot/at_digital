@@ -1,12 +1,13 @@
-# React + Vite
+# At Digital - Frontend Development Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction
+This project is a website for a digital company called "At Digital". The website showcases the company's services, including web and mobile app development, digital strategy consulting, and more.
 
-Currently, two official plugins are available:
+## Technologies Used
+- **React**: A JavaScript library for building user interfaces.
+- **Vite**: A fast and opinionated build tool that serves as a modern alternative to Create React App.
+- **Bootstrap**: A popular CSS framework for building responsive and mobile-first websites.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+- [Node.js](https://nodejs.org/) (version 14 or higher)
+- [npm](https://www.npmjs.com/) (version 6 or higher)
