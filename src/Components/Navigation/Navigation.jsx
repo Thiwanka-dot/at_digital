@@ -1,6 +1,7 @@
 import { useState } from "react";
 import style from './nav.module.css';
 import { Link } from "react-router-dom";
+import Logo from '../../assets/Logo.png';
 
 export default function Navigation() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -15,7 +16,7 @@ export default function Navigation() {
 
     return (
         <nav>
-            <img src="./src/assets/Logo.png" alt="logo" className={style.logo} />
+            <img src={Logo} alt="logo" className={style.logo} />
             <button className={style.toggleBtn} onClick={toggleMenu} aria-label="Toggle menu">
                 ☰
             </button>

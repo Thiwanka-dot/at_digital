@@ -2,6 +2,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import style from './home.module.css';
 import { useState } from 'react';
+import HeroImage from '../../assets/HeroImage.png';
+import WebMob from '../../assets/image_2.png';
+import DigitalStrategy from '../../assets/image_1.png';
+
 
 export default function Home() {
     const [activeIndex, setActiveIndex] = useState(1);
@@ -13,7 +17,7 @@ export default function Home() {
     return (
         <div>
             <div className={style.heroContainer}>
-                <img src="./src/assets/HeroImage.png" alt="hero" />
+                <img src={HeroImage} alt="hero" />
                 <div className={style.heroDetails}>
                     <h1>We Crush Your Competitors, Goals, And Sales Records - Without The B.S.</h1>
                     <button className={style.btn}>GET FREE CONSULTATION</button>
@@ -21,7 +25,7 @@ export default function Home() {
             </div>
             <div className={style.section}>
                 <div className={style.sectionItem}>
-                    <img src="./src/assets/image_2.png" alt="web&mobile" />
+                    <img src={WebMob} alt="web&mobile" />
                     <div className={style.sectionItemInfo}>
                         <h2>Web & Mobile App Development</h2>
                         <p>Your web and mobile Apps are pieces of the puzzle to grow your business. We use frameworks which tailor content and engagement methods to respond to different intents shown by your potential customers who interact with your business online.</p>
@@ -34,7 +38,7 @@ export default function Home() {
                         <p>Your digital strategy should complement the overall marketing strategy of the company. In online marketing, each component will never work in isolation and every business needs a different mix. We provide a clear concept and strategic overview to find the most efficient model for your business.</p>
                         <button className={style.btn}>LEARN MORE</button>
                     </div>
-                    <img src="./src/assets/image_1.png" alt="web&mobile" />
+                    <img src={DigitalStrategy} alt="digital strategy" />
                 </div>
                 <div className={style.FAQs}>
                     <h2>Frequently Asked Questions</h2>

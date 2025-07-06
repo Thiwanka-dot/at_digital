@@ -1,11 +1,12 @@
 import style from './footer.module.css';
+import Logo from '../../assets/Logo.png';
 
 export default function Footer() {
     return (
         <footer className={style.footer}>
             <div className={style.footCon}>
                 <div className={style.company}>
-                    <img src="./src/assets/Logo.png" alt="logo" />
+                    <img src={Logo} alt="logo" />
                     <p>
                         Your goal is our target. Not anything in between. We use <br />
                         online marketing platforms and tools to achieve a single <br />
